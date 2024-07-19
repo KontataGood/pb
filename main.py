@@ -17,7 +17,7 @@ list_of_jokes = parser(URL)
 random.shuffle(list_of_jokes)
 
 #bot
-bot = telebot.TeleBot('6102544352:AAE1spw7D-SBzWpAPi0_Ks7g4vcrLbTOEmo')#token
+bot = telebot.TeleBot('')#token
 
 @bot.message_handler(commands=['start'])
 def start(message):
